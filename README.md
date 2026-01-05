@@ -15,7 +15,7 @@ amplifier. Finally, the radio frequency stage is improved through
 Back around 1974, aged 10, I made this radio and it worked well for
 me. It seems that others didn't have as much luck, particularly with
 the final stage which was susceptible to oscillation - I suspect this
-was a result from variation between samples of the transistors.  The
+was a result of variation between samples of the transistors.  The
 transistors used were PNP germanium types and are now very difficult
 to obtain as they are no longer produced.  When you can find them,
 they are very expensive as they are popular for guitar effects pedals.

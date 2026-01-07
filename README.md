@@ -40,3 +40,66 @@ the PCB to allow each stage (crystal set, one-transistor and
 two-transistor amplifiers) to be built on the same PCB.
 
 
+Parts
+-----
+
+Doz has, of course fixed the problem of obtaining the transistors, but
+the variable capacitor, radio frequency choke and transformer can be
+problematic.
+
+### Variable capacitor
+
+The style of variable capacitor used in the book is almost
+unobtainable.  The best replacement seems to be an AM+FM radio quad
+PVC film variable capacitor containing dual 270pF and dual 20pF
+variable capacitors. Wiring the two 270pF capacitors in parallel will
+then give 540pF which is close enough to the specified 500pF. These
+are available from various suppliers on AliExpress as the **CBM-443BF**
+(and at varying prices - from about &pound;1.70 to &pound;16.50!).
+There are variations available with different length shafts,
+screw-trimmers, etc. Just look for the dual 270pF.
+
+### Radio frequency choke
+
+The RFC used in the book isn't made any more, but was a ferrite core
+2.5mH device. The board leaves enough space for one of these if you
+can find it, but it isn't a critical component, so a standard
+resistor-like 2.2mH (2200uH) inductor should be fine.
+
+### LT700 transformer
+
+These are apparently still made and available from Cricklewood
+Electronics, but I ordered one on EBay and instead was sent an Eagle
+P631T. The P631T is easy to obtain from EBay and Amazon.
+
+The LT700 has a 1.2K primary with a centre tap (which is not used in
+the Ladybird Radio) and a 3.2R secondary.  The P631T also has a 1.2K
+primary (but with no centre tap) but has a 6.4R secondary with a
+centre tap. Consequently, using one end and the centre tap will give
+us the 3.2R we need.
+
+The Xicon 42TL003-RC (available from Mouser) would probably work, but
+has an 8R secondary (with centre tap) allowing a 4R secondary.
+
+The Hammond 146J (available from Mouser) would probably also work, but
+has a primary impedance of 1K instead of 1.2K.
+
+The Tamura MET-23 (available from Mouser) has a 1.6K primary (with
+centre tap) and a 3.2R secondary and would almost certainly be fine.
+
+The board is currently configured for the P631T (since that is what I
+obtained), but I will add solder pads to allow the others to be used
+instead. In all cases, the centre tap would be cut off the primary and
+the solder pad selected for centre tap or end position depending on
+the transformer chosen.
+
+--------------------------------------------
+| Model            |  Primary  | Secondary |
+--------------------------------------------
+| Eagle LT700      | 1.2k CT   |  3.2R     |
+| Eagle P631T      | 1.2k      |  6.4R CT  |
+| Xicon 42TL003-RC | 1.2k CT   |  8R CT    |
+| Hammond 146J     | 1.0k CT   |  3.2R     |
+| Tamura MET-23    | 1.6k CT   |  3.2R     |
+--------------------------------------------
+

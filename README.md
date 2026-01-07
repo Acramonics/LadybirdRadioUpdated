@@ -70,7 +70,8 @@ resistor-like 2.2mH (2200uH) inductor should be fine.
 
 These are apparently still made and available from Cricklewood
 Electronics, but I ordered one on EBay and instead was sent an Eagle
-P631T. The P631T is easy to obtain from EBay and Amazon.
+P631T. The P631T is easy to obtain from EBay and Amazon, 
+YourSpares.co.uk, and audiomate.co.uk
 
 The LT700 has a 1.2K primary with a centre tap (which is not used in
 the Ladybird Radio) and a 3.2R secondary.  The P631T also has a 1.2K

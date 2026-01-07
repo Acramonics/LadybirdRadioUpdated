@@ -104,3 +104,6 @@ Tamura MET-23    | 1.6k CT   |  3.2R
 
 (CT = centre tapped)
 
+
+
+Trmmer cap should be 6mm

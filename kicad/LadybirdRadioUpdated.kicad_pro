@@ -129,7 +129,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 2.0,
+        "min_track_width": 1.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -225,7 +225,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_not_connected|2070100|838200|2b92282e-d52b-497c-9552-a1ce2279510f|00000000-0000-0000-0000-000000000000|/9e809f37-c2cf-488b-a5a0-ec92757b46de|/9e809f37-c2cf-488b-a5a0-ec92757b46de|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },

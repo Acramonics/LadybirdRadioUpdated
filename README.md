@@ -93,13 +93,13 @@ instead. In all cases, the centre tap would be cut off the primary and
 the solder pad selected for centre tap or end position depending on
 the transformer chosen.
 
---------------------------------------------
-| Model            |  Primary  | Secondary |
---------------------------------------------
-| Eagle LT700      | 1.2k CT   |  3.2R     |
-| Eagle P631T      | 1.2k      |  6.4R CT  |
-| Xicon 42TL003-RC | 1.2k CT   |  8R CT    |
-| Hammond 146J     | 1.0k CT   |  3.2R     |
-| Tamura MET-23    | 1.6k CT   |  3.2R     |
---------------------------------------------
+Model            | Primary   | Secondary 
+:----------------|:----------|:-------------
+Eagle LT700      | 1.2k CT   |  3.2R     
+Eagle P631T      | 1.2k      |  6.4R CT  
+Xicon 42TL003-RC | 1.2k CT   |  8R CT    
+Hammond 146J     | 1.0k CT   |  3.2R     
+Tamura MET-23    | 1.6k CT   |  3.2R     
+
+(CT = centre tapped)
 

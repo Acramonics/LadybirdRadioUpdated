@@ -106,4 +106,4 @@ Tamura MET-23    | 1.6k CT   |  3.2R
 
 
 
-Trmmer cap should be 6mm
+Trmmer cap is 6mm diameter with 5.3mm lead spacing

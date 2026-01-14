@@ -104,6 +104,3 @@ Tamura MET-23    | 1.6k CT   |  3.2R
 
 (CT = centre tapped)
 
-
-
-Trmmer cap is 6mm diameter with 5.3mm lead spacing

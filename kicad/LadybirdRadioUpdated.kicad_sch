@@ -4826,7 +4826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_Axial_L12.8mm_D5.8mm_P25.40mm_Horizontal_Fastron_HBCC"
+		(property "Footprint" "ACRM:L_Axial_L12.8mm_D5.8mm_P25.40mm_Horizontal_Radial_D9.5mm_P5.0mm"
 			(at 104.14 93.98 0)
 			(effects
 				(font

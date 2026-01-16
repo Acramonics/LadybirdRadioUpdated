@@ -4766,7 +4766,7 @@
 		)
 		(uuid "4ee8ed5b-77f3-49aa-a6e6-b5bf3f2dbf09")
 	)
-	(text "J7\n1-2 Not crystal\n"
+	(text "J11\n1-2 Not crystal\n"
 		(exclude_from_sim no)
 		(at 96.266 117.348 0)
 		(effects
@@ -4951,6 +4951,12 @@
 		(uuid "8371e9d5-a227-47e4-8489-040032ca2e2a")
 	)
 	(junction
+		(at 265.43 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "844a8d5b-f44b-44b1-9089-02cb09c0631b")
+	)
+	(junction
 		(at 173.99 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5059,6 +5065,12 @@
 		(uuid "db5424fc-3cbc-4f71-b539-42c3a0650ebc")
 	)
 	(junction
+		(at 265.43 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddc17daa-1244-4672-a135-a77e6150b8c6")
+	)
+	(junction
 		(at 212.09 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5135,6 +5147,16 @@
 			(type default)
 		)
 		(uuid "0cdb3cbb-25d5-47a2-b351-fff444803b72")
+	)
+	(wire
+		(pts
+			(xy 265.43 60.96) (xy 265.43 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e427bee-2f74-4533-a4e0-89d4f6090242")
 	)
 	(wire
 		(pts
@@ -5558,6 +5580,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 71.12) (xy 265.43 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e7aadcc-f4a1-4b7b-9f01-a6a46c3e63b2")
+	)
+	(wire
+		(pts
 			(xy 105.41 86.36) (xy 105.41 87.63)
 		)
 		(stroke
@@ -5615,16 +5647,6 @@
 			(type default)
 		)
 		(uuid "56190381-35b4-4826-9fad-e83b3e6dd5cc")
-	)
-	(wire
-		(pts
-			(xy 265.43 71.12) (xy 265.43 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57cfc95d-cd0a-4b6c-8888-021648637990")
 	)
 	(wire
 		(pts
@@ -5725,16 +5747,6 @@
 			(type default)
 		)
 		(uuid "6c6d5b15-4b7e-4217-8c16-7b57ae7b7fea")
-	)
-	(wire
-		(pts
-			(xy 265.43 90.17) (xy 265.43 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cf3a4ad-6572-439d-9b05-f5e114ad5883")
 	)
 	(wire
 		(pts
@@ -5875,6 +5887,16 @@
 			(type default)
 		)
 		(uuid "7d19d6dd-ed04-40c7-a648-7e24dde46f94")
+	)
+	(wire
+		(pts
+			(xy 265.43 71.12) (xy 265.43 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d553844-d5d5-4778-ae13-eaa48aa1e3d2")
 	)
 	(wire
 		(pts
@@ -6218,6 +6240,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 53.34) (xy 265.43 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f7f164-745c-4e9c-ac82-1f5948397432")
+	)
+	(wire
+		(pts
 			(xy 50.8 54.61) (xy 29.21 54.61)
 		)
 		(stroke
@@ -6518,6 +6550,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 60.96) (xy 265.43 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ad585d-2c2c-4fce-a3fe-aa179451a891")
+	)
+	(wire
+		(pts
 			(xy 45.72 88.9) (xy 49.53 88.9)
 		)
 		(stroke
@@ -6565,6 +6607,16 @@
 			(type default)
 		)
 		(uuid "da4d06db-ba10-4ed0-b0d0-b652c5aa4956")
+	)
+	(wire
+		(pts
+			(xy 265.43 90.17) (xy 265.43 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbdb28ef-26d2-41c8-a74e-99a703879241")
 	)
 	(wire
 		(pts
@@ -6648,6 +6700,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 71.12) (xy 265.43 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea58a1d3-9b64-4d0f-9997-ed6b83bb5f22")
+	)
+	(wire
+		(pts
 			(xy 82.55 102.87) (xy 90.17 102.87)
 		)
 		(stroke
@@ -6675,16 +6737,6 @@
 			(type default)
 		)
 		(uuid "f1903bfc-7633-4841-ad3c-baf7e9baaa86")
-	)
-	(wire
-		(pts
-			(xy 265.43 53.34) (xy 265.43 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2030929-a36e-4799-8290-6ed03f8823c3")
 	)
 	(wire
 		(pts
@@ -6725,6 +6777,26 @@
 			(type default)
 		)
 		(uuid "fce2ad68-39cc-44be-98f4-2ae2c20196d0")
+	)
+	(label "GND2"
+		(at 238.76 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "073482ea-0c49-4031-9bb9-06dff8c42d06")
+	)
+	(label "+ve"
+		(at 236.22 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d933f50-aa67-4d7c-8b23-1335a5146ea1")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
@@ -6968,7 +7040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 193.04 77.47 0)
 			(effects
 				(font
@@ -7159,16 +7231,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 265.43 66.04 90)
+		(at 273.05 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19044af3-6478-42fa-bb4d-2e7dcbdf5033")
 		(property "Reference" "SW1"
-			(at 266.7 64.7699 90)
+			(at 274.32 64.7699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7177,7 +7249,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 266.7 67.3099 90)
+			(at 274.32 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7186,7 +7258,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 66.04 0)
+			(at 273.05 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7195,7 +7267,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 265.43 66.04 0)
+			(at 273.05 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7204,7 +7276,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 265.43 66.04 0)
+			(at 273.05 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7570,7 +7642,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 270.51 90.17 180)
+		(at 270.51 87.63 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7587,7 +7660,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 271.78 90.1699 0)
+			(at 271.78 87.6301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7597,7 +7670,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 270.51 90.17 0)
+			(at 270.51 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7606,7 +7679,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 270.51 90.17 0)
+			(at 270.51 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7615,7 +7688,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 270.51 90.17 0)
+			(at 270.51 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7667,7 +7740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 247.65 63.5 0)
 			(effects
 				(font
@@ -7805,7 +7878,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a5650c7-28d3-4a82-97a6-e67ab63822ac")
-		(property "Reference" "J7"
+		(property "Reference" "J11"
 			(at 97.79 112.522 0)
 			(effects
 				(font
@@ -7822,7 +7895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical"
 			(at 96.52 109.22 0)
 			(effects
 				(font
@@ -7858,7 +7931,7 @@
 		(instances
 			(project "LadybirdRadioUpdated"
 				(path "/9e809f37-c2cf-488b-a5a0-ec92757b46de"
-					(reference "J7")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -8354,6 +8427,77 @@
 			(project "LadybirdRadioUpdated"
 				(path "/9e809f37-c2cf-488b-a5a0-ec92757b46de"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 270.51 64.77 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fc79c17-847b-4b73-bb7a-950b4a4d4d4a")
+		(property "Reference" "J6"
+			(at 268.478 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 271.78 64.7701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 270.51 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 270.51 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e1d389b-2bf3-4fcd-ab83-4fd3b98e1a85")
+		)
+		(pin "2"
+			(uuid "f1b37c8e-58b3-4fee-a9c7-703bae730ea7")
+		)
+		(instances
+			(project "LadybirdRadioUpdated"
+				(path "/9e809f37-c2cf-488b-a5a0-ec92757b46de"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -9034,7 +9178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 144.78 87.63 0)
 			(effects
 				(font
@@ -9399,7 +9543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 63.5 86.36 0)
 			(effects
 				(font

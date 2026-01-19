@@ -47,6 +47,65 @@ Doz has, of course fixed the problem of obtaining the transistors, but
 the variable capacitor, radio frequency choke and transformer can be
 problematic.
 
+### Germanium diode
+
+These are quite difficult to obtain - any germanium diode will do and
+you should be able to find them on EBay.
+
+If you can't find one then you can skip the crystal set stage.
+
+### Earpiece
+
+You need a high impedance earpiece, typically of the piezo type. These
+are harder to find than they once were.
+
+### Sockets
+
+There are **Molex 254** 'pin headers' indicated at various places on
+the board; you then connect wires using a special housing. You do not
+have to use these, you can simply push wires through the holes
+instead. However, I recommend sockets for the two earpiece headers and
+the loudspeaker as you will be adding and removing these (particularly
+if you want to be able to go back to an earlier stage of the radio).
+
+### Jumpers
+
+These are all 2-row parts with 0.1" spacing. They are then fitted with
+the little plastic headers that are used in computers. If you can't
+find them, you can solder a wire across instead, but it does make
+things more difficult as you will have to remove jumpers as well. If
+simply progressing through the stages (and don't want to go back
+again) you could just cut the wire jumpers off.
+
+On the board, the jumpers (J1-J5) are marked at each position with the
+characters X,1,2,G standing for crystal, 1-transistor, 2-transistor
+and reGeneration respectively:
+
+Jumper | Marking | Meaning
+:----- | :------ | :----------------------------------------------------
+J1:    | G       | Connect for regeneration
+       | G       | Connect for regeneration
+       | X12     | Connect for crystal, 1-transistor, and 2-transistor (not
+       |         | regeneration)
+       |         |    
+J2:    | 12      | Connect for 1-transistor and 2-transistor (not crystal or
+       |         | regeneration)
+       | X       | Connect for crystal
+       |         |    
+J3:    | 12G     | Connect for 1-transistor, 2-transistor, and regeneration
+       |         | (i.e. everything except the crystal set)
+       |         |    
+J4:    | G       | Connect for regeneration stage only
+       | G       | Connect for regeneration stage only
+       | G       | Connect for regeneration stage only
+       |         |    
+J5:    | 2G      | Connect for 2-transistor and regeneration (not for crystal
+       |         | or 1-transistor
+       | 2G      | Connect for 2-transistor and regeneration (not for crystal
+       |         | or 1-transistor
+       | 2G      | Connect for 2-transistor and regeneration (not for crystal
+       |         | or 1-transistor
+
 ### Variable capacitor
 
 The style of variable capacitor used in the book is almost
@@ -103,4 +162,63 @@ Hammond 146J     | 1.0k CT   |  3.2R
 Tamura MET-23    | 1.6k CT   |  3.2R     
 
 (CT = centre tapped)
+
+
+Construction
+------------
+
+### The ferrite rod coil
+
+### The crystal set
+
+- Populate the parts for the crystal set which are all in the `DETECTOR'
+area of the board.
+
+- Add the `X' jumpers for J1 and J2
+
+- Connect an earpiece to the header in the `DETECTOR` part of the
+  board. (You can just solder wires in, but you will have to remove
+  them for later stages.)
+
+- You will need a long aerial (about 100ft long) and a good earth
+  connection (e.g. to a central heating or water pipe).
+
+### The 1-transistor stage
+
+- Add the components in the `1st TRANSISTOR` area of the board.
+
+- Remove the jumpers that are just labelled `X'
+
+- Add the `1' jumpers at J1, J2 and J3.
+
+- Connect an earpiece to the header in the `1st TRANSISTOR` part of
+  the board. (You can just solder wires in, but you will have to
+  remove them for later stages.)
+
+- Connect the battery and switch at the far right of the board
+
+### The 2-transistor stage
+
+- Add the components in the `2nd TRANSISTOR` area of the board.
+
+- Remove any jumpers that are *not* labelled `2'
+
+- Add the `2' jumpers at J1, J2, J3 and J5
+
+- Connect a 4 Ohm loudspeaker in the `2nd TRANSISTOR` part of the
+  board.
+
+### Regeneration
+
+- Add the components in the `REGENERATION` area of the board.
+
+- Remove any jumpers that are *not* labelled `G'
+
+- Add the `G' jumpers at J1, J3, J4 and J5
+
+- You shouldn't need the aerial or earth connection any more!
+
+
+
+
 

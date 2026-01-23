@@ -54,7 +54,8 @@ problematic.
 ### Germanium diode
 
 These are quite difficult to obtain - any germanium diode will do and
-you should be able to find them on EBay.
+you should be able to find them on EBay. Amazon also sells 1N34A
+germanium diodes as do Cricklewood and BitsBox.
 
 You can still build the full regeneration stage radio without the diode.
 

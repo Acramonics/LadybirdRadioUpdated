@@ -39,6 +39,10 @@ will be a PCB for the full radio with regeneration. I will then modify
 the PCB to allow each stage (crystal set, one-transistor and
 two-transistor amplifiers) to be built on the same PCB.
 
+**Note!** I would not normally design a PCB like this! The idea is to
+make this as close to the layout of the circuit diagram and the wooden
+board version as possible with each section clearly delineated.
+
 
 Parts
 -----
@@ -52,12 +56,13 @@ problematic.
 These are quite difficult to obtain - any germanium diode will do and
 you should be able to find them on EBay.
 
-If you can't find one then you can skip the crystal set stage.
+You can still build the full regeneration stage radio without the diode.
 
 ### Earpiece
 
-You need a high impedance earpiece, typically of the piezo type. These
-are harder to find than they once were.
+You need a high impedance earpiece, typically a so-called 'crystal
+earphone'.  These are somewhat harder to find than they once were, but
+are available from EBay, Rapid Electronics, CPC and Amazon.
 
 ### Sockets
 
@@ -147,11 +152,12 @@ has a primary impedance of 1K instead of 1.2K.
 The Tamura MET-23 (available from Mouser) has a 1.6K primary (with
 centre tap) and a 3.2R secondary and would almost certainly be fine.
 
-The board is currently configured for the P631T (since that is what I
-obtained), but I will add solder pads to allow the others to be used
-instead. In all cases, the centre tap would be cut off the primary and
-the solder pad selected for centre tap or end position depending on
-the transformer chosen.
+The board is configured for the P631T (since that is what I obtained),
+but has a solder pad jumper to allow transformers which have 3.2R
+secondaries without a centre-tap to be used. So if you are using an
+LT700, 147J or MET-23, just bridge this jumper with some solder.
+
+In all cases, the centre tap (of present) would be cut off the primary.
 
 Model            | Primary   | Secondary 
 :----------------|:----------|:-------------
